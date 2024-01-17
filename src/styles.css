@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+ --white: #FFFFFF;
+ --dark: #012433;
+ --font-color: #536B7A;
+ --detail-color:#9AAEBB;
+ --detail-color-secondary:#0B749B;
+ --title-color:#386071;
+ --title-color-secondary:#164E78;
+ --button-border:#78849E66;
+ --button-text:#78849E;
+ --button-text-secondary:#718FA2;
+
+ --line-divider:#21B3CF;
+ --detail-color-40:rgba(154, 174, 187, 0.4)
+}
+
+* {
+  font-family:  Roboto, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,18 @@
+.title{
+  font-size: 32px;
+  color: var(--title-color-secondary);
+}
+
+hr{
+  width: 52px;
+  border-top: 2px solid var(--line-divider);
+  opacity: 1;
+  margin-top: 0;
+}
+
+button{
+  border:none;
+  background-color: transparent;
+  color:var(--button-text-secondary);
+  font-size: 8px;
+}

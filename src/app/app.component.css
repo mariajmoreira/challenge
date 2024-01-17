@@ -1,0 +1,29 @@
+.header{
+  background-color: var(--dark);
+  height: 50px;
+}
+
+.title-container{
+
+}
+
+.title{
+  font-size:24px;
+  color: var(--title-color);
+}
+
+.btns-container{
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+
+.custom-btn{
+  border: 1px solid var(--button-border);
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 8px 12px;
+  text-align: center;
+  color: var(--button-text);
+  font-size: 12px;
+}
