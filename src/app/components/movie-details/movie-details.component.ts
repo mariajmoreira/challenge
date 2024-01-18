@@ -4,6 +4,7 @@ import { DetailedMovie } from 'src/app/models/detailedMovie';
 import { Movie } from 'src/app/models/movie';
 import { MoviesService } from 'src/app/services/movies.service';
 
+
 @Component({
   selector: 'app-movie-details',
   templateUrl: './movie-details.component.html',
@@ -26,4 +27,10 @@ export class MovieDetailsComponent {
       this.movieDetails = data;
     });
   }
+
+  close(){
+    this.dialogRef.close()
+  }
 }
+
+

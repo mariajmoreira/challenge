@@ -1,11 +1,11 @@
 <!-- {{movieDetails | json}} -->
-<div class="container px-5 py-5" >
+<div mat-dialog-content class="container px-5 py-4 movie-detail-dialog-content   " >
   <div class="row">
     <div class="col-sm-11 title">
       {{movieDetails.title}}
     </div>
     <div class="col-sm-1">
-      <button>
+      <button (click)="close()">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><style>.a{fill:#718fa2;}.b{fill:none;}</style></defs><path class="a" d="M19,6.41,17.59,5,12,10.59,6.41,5,5,6.41,10.59,12,5,17.59,6.41,19,12,13.41,17.59,19,19,17.59,13.41,12Z"/><path class="b" d="M0,0H24V24H0Z"/></svg>
         CLOSE
       </button>
@@ -15,11 +15,93 @@
   <hr/>
 
   <div class="row">
-    row
+    <div>
+      <p class="detail-title">
+        Year
+      </p>
+      <p class="detail">{{movieDetails.year}}</p>
+    </div>
   </div>
-  <div>
-    row
+
+  <div class="row">
+    <div>
+      <p class="detail-title">
+        Genre
+      </p>
+      <p class="detail">{{movieDetails.genre}}</p>
+    </div>
   </div>
+
+  <div class="row">
+    <div>
+      <p class="detail-title">
+        Description
+      </p>
+      <p class="detail">{{movieDetails.description}}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3">
+      <p class="detail-title">
+        Director
+      </p>
+      <p class="detail-secondary">{{movieDetails.director}}</p>
+    </div>
+    <div class="col-sm-9">
+      <p class="detail-title">
+        Actors
+      </p>
+      <p class="detail-secondary">{{movieDetails.actors}}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <p class="detail-title">
+        Runtime
+      </p>
+      <p class="detail">{{movieDetails.runtime}} mins</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <p class="detail-title">
+        Rating
+      </p>
+      <p class="detail">{{movieDetails.rating}}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <p class="detail-title">
+        Votes
+      </p>
+      <p class="detail">{{movieDetails.votes}}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <p class="detail-title">
+        Revenue
+      </p>
+      <p class="detail">${{movieDetails.revenue}}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <p class="detail-title">
+        Metascore
+      </p>
+      <p class="detail">{{movieDetails.metascore}}</p>
+    </div>
+  </div>
+
 </div>
+
 
 

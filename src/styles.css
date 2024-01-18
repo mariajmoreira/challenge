@@ -12,7 +12,10 @@
  --button-text-secondary:#718FA2;
 
  --line-divider:#21B3CF;
- --detail-color-40:rgba(154, 174, 187, 0.4)
+ --detail-color-40:rgba(154, 174, 187, 0.4);
+ --detail-title : #78849EB9;
+ --detail:#78849E;
+ --detail-secondary:#00BAFF;
 }
 
 * {
@@ -25,3 +28,4 @@ html, body {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

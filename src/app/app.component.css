@@ -3,9 +3,6 @@
   height: 50px;
 }
 
-.title-container{
-
-}
 
 .title{
   font-size:24px;
@@ -26,4 +23,32 @@
   text-align: center;
   color: var(--button-text);
   font-size: 12px;
+  font-weight: 300;
+}
+
+.custom-btn:hover, .custom-btn:focus{
+  background-color: var(--detail-secondary);
+  color: var(--dark);
+  font-weight: 300;
+}
+
+.reset-btn{
+  border: none;
+  background-color: transparent;
+}
+
+.dropdown-item{
+  font-size: 14px;
+  color: var(--font-color );
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-item-text{
+  font-size: 12px;
+  color: var(--detail-title );
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
 }

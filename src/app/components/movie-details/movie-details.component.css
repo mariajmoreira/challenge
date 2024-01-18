@@ -1,5 +1,14 @@
+.movie-detail-dialog-content {
+  overflow-y: hidden;
+  max-height: 100%;
+  line-height: inherit;
+}
+
 .title{
+  display: flex;
+  align-items: center;
   font-size: 32px;
+  font-weight: 300;
   color: var(--title-color-secondary);
 }
 
@@ -15,4 +24,30 @@ button{
   background-color: transparent;
   color:var(--button-text-secondary);
   font-size: 8px;
+}
+
+.row{
+  margin-bottom: 1rem;
+}
+
+.detail-title
+{
+  font-weight: 400;
+  font-size: 14px;
+  color:var(--detail-title);
+  margin-bottom:4px;
+}
+
+.detail{
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--detail);
+  margin: 0px;
+}
+
+.detail-secondary{
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--detail-secondary);
+  margin: 0px;
 }
