@@ -5,11 +5,16 @@
 }
 
 .title{
+  line-height: normal;
   display: flex;
   align-items: center;
-  font-size: 32px;
+  font-size: calc(1em + 1vw);
   font-weight: 300;
   color: var(--title-color-secondary);
+}
+
+.close-button{
+display: contents;
 }
 
 hr{
@@ -24,6 +29,8 @@ button{
   background-color: transparent;
   color:var(--button-text-secondary);
   font-size: 8px;
+  display: grid;
+  justify-content: end;
 }
 
 .row{

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, ElementRef, Input, ViewChild } from '@angular/core';
 import { Movie } from 'src/app/models/movie';
 import { MovieDetailsComponent } from '../movie-details/movie-details.component';
 import { MatDialog } from '@angular/material/dialog';
@@ -11,9 +11,12 @@ import { MatDialog } from '@angular/material/dialog';
 export class MoviesTableComponent {
   @Input() movies: Movie[];
 
+
   constructor(private matDialog:MatDialog){
 
   }
+
+ 
 
   openMovieDetails(movie:Movie){
     this.matDialog.open(MovieDetailsComponent, {
