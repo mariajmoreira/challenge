@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MoviesTableComponent } from './movies-table.component';
+import { MatDialogModule } from '@angular/material/dialog';
 
 describe('MoviesTableComponent', () => {
   let component: MoviesTableComponent;
@@ -8,6 +9,7 @@ describe('MoviesTableComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
+      imports:[MatDialogModule],
       declarations: [MoviesTableComponent]
     });
     fixture = TestBed.createComponent(MoviesTableComponent);
